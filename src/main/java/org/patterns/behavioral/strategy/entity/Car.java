@@ -6,7 +6,7 @@ import org.patterns.behavioral.strategy.behavior.EngineBehavior;
  * @author Eugine Sokirka
  */
 public abstract class Car {
-    private EngineBehavior engineBehavior;/**Композиция: Класс Car содержит EngineBehavior*/
+    private EngineBehavior engineBehavior;/**РљРѕРјРїРѕР·РёС†РёСЏ: РљР»Р°СЃСЃ Car СЃРѕРґРµСЂР¶РёС‚ EngineBehavior*/
 
     public Car(EngineBehavior engineBehavior) {
         this.engineBehavior = engineBehavior;
